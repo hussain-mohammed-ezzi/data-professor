@@ -139,3 +139,12 @@ df = pd.read_csv('https://githubusercontent.com/dataprofessor/data/master/pengui
 pr = df.profile_report()
 st_profile_report(pr)
 
+
+st.header('hawe latex start thase')
+
+import streamlit as st
+
+st.latex(r'''a+ ar + a r^2'+ ar^3 \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a\left(\frac{1-r^{n}}{1-r)\right''')
+
+
+
